@@ -16,6 +16,7 @@ class CustomAlertDialog extends StatelessWidget {
       backgroundColor: Colors.black,
       content: TextField(
         controller: controller,
+        style: const TextStyle(color: Colors.white),
         decoration: const InputDecoration(
             border: OutlineInputBorder(),
             hintText: "Add new task",
